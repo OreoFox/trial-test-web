@@ -37,8 +37,7 @@
 	<div class="overlay">
 		<div class="o-outer">
 			<div id="o-close">Close X</div>
-			<div id="o-content">
-            </div>
+			<div id="o-content"></div>
 		</div>
 	</div>
 </body>

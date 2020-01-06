@@ -1,11 +1,11 @@
 <?php 
 	require_once 'autoloader.php';
-	
+
 	$register = isset($_POST['register']) ? $_POST['register'] : false;
 	if ( $register ) {
 		
 		// Validate input...
-		$formIsValid = true;
+		$formIsValid = Register::checkForm($register);
 		
 		if ($formIsValid) {
 			Register::save($register);
